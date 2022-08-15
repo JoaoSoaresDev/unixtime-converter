@@ -33,10 +33,11 @@ namespace UnixTimeConverter
         private void UIElement_OnMouseEnter(object sender, MouseEventArgs e)
         {
             Mouse.OverrideCursor = Cursors.Wait;
+            
 
             try
             {
-                
+                Mouse.OverrideCursor = Cursors.Arrow;
             }
             finally
             {
